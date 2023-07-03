@@ -1,0 +1,63 @@
+/* body{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("D:\ReactJs\login\src\Images\craig-lovelidge-v1UDAHfmdZ8-unsplash.jpg");
+    background-size: cover;
+  } */
+  .main_container{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("D:\ReactJs\login\src\Images\craig-lovelidge-v1UDAHfmdZ8-unsplash.jpg");
+    background-size: cover;
+  }
+  
+  .container ,.signup_form , .login_form{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+  }
+  
+  @media screen and (min-width:600px){
+    .container{
+      padding: 2rem;
+      border: 1px solid black;
+      border-radius: 10px;
+      margin: 0.5rem;
+      
+      } 
+  }
+  
+  label{
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button{
+    border: none;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .link_btn{
+    background: none;
+    color: black;
+    text-decoration: underline;
+  }
+  

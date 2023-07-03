@@ -1,0 +1,102 @@
+/* body{
+  padding-left: 0px ;
+  background-image: url("D:\ReactJs\login\src\Images\craig-lovelidge-v1UDAHfmdZ8-unsplash.jpg");
+  background-size: cover;
+} */
+
+.background{
+  background-image: url("D:\ReactJs\login\src\Images\craig-lovelidge-v1UDAHfmdZ8-unsplash.jpg");
+  background-size: cover;
+}
+.landing_body{
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+  }
+  .item_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .card {
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0.5em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+  }
+  
+  .buy_btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .buy_btn{
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border: black solid 2px;
+      height: 18px;
+      .button_text{
+        background: white;
+      }
+    }
+    .buy_btn:hover {
+      background-color: #D1CFCF;
+  }
+  }
+  .update_btn{
+    display: inline-flex;
+    align-items: center;
+    background-color: ghostwhite;
+    margin-bottom: 8px;
+    height: 5ex;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .update_btn:hover {
+    background-color: #D1CFCF;
+}
+  .add_btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: ghostwhite;
+    border: black solid 2px;
+    height: 5ex;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .add_btn:hover {
+    background-color: #D1CFCF;
+}
+ 
+  .image_box img {
+    height: 156px;
+    border: black solid 1px;
+    width: auto;
+  }
+  .main_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+

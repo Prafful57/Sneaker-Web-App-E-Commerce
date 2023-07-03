@@ -1,0 +1,106 @@
+
+.addProduct_body{
+  text-align: center;
+  display: flex ;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  background-image: url("D:\ReactJs\login\src\Images\craig-lovelidge-v1UDAHfmdZ8-unsplash.jpg");
+  background-size: cover;
+}
+.productCard {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 730px;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 50px;
+  .select_size{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 26px;
+    width: 125px;
+  }
+  .labelContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 145px;
+    .labelWeight{
+      font-weight: 600;
+    }
+  }
+  .sizeLabelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 58px;
+    gap: 30px;
+    .labelWeight{
+      font-weight: 600;
+    }
+  }
+}
+
+.productImage {
+  width: 120px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 4px;
+  padding: 12px;
+ 
+}
+.productImage img{
+  height: 80px;
+  width: 120px;
+}
+
+.productDetails {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.productName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+  display: flex;
+  overflow-wrap: break-word;
+  width: 194px;
+  height: 80px;
+}
+
+.productPrice {
+  height: 80px;
+  font-size: 14px;
+}
+.proceedButton {
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    border: black solid 2px;
+    height: 5ex;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.proceedButton:hover {
+  background-color: #D1CFCF;
+} 
+.proceedButtonContainer {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}

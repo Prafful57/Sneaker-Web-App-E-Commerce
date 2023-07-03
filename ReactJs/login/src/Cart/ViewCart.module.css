@@ -1,0 +1,96 @@
+.viewCart_body{
+  text-align: center;
+  display: flex ;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  background-image: url("D:\ReactJs\login\src\Images\craig-lovelidge-v1UDAHfmdZ8-unsplash.jpg");
+  background-size: cover;
+}
+.delete_btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  border: black solid 2px;
+  height: 5ex;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.delete_btn:hover {
+  background-color: #D1CFCF;
+}
+.productCart {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .productTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .productTable th,
+  .productTable td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;;
+  }
+  
+  .productImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+  }
+  
+  .totalContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .totalPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+  }
+  .proceedButton {
+    display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      background-color: white;
+      border: black solid 2px;
+      height: 5ex;
+      border: 2px solid black;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  
+  .proceedButton:hover {
+    background-color: #D1CFCF;
+  } 
+  .proceedButtonContainer {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .productCart img{
+    height: 80px;
+    width: 120px;
+  }
